@@ -1,0 +1,71 @@
+/* Max width 767px */
+@media only screen and (max-width: 767px) {
+  p {
+    font-size: 14px;
+  }
+
+  .default-btn {
+    padding: 13px 20px;
+    font-size: 14px;
+    max-width: 40%;
+    margin-bottom: 2rem;
+  }
+  .prm_content h1 {
+    color: #000000;
+    text-align: center;
+    margin-top: 3rem;
+    font-weight: 900;
+    font-size: 30px;
+  }
+  .prm_content p {
+    color: #000000;
+    text-align: center;
+  }
+  .primg {
+    width: 75%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8rem;
+  }
+
+
+
+/* Only Mobil Menu Max width 991px */
+@media only screen and (max-width: 991px) {
+  .mean-container .mean-bar {
+    background-color: #ffffff;
+    height: 70px;
+  }
+  .mean-container a.meanmenu-reveal {
+    padding: 24px 15px 0 0;
+    color: #000000;
+  }
+  .mean-container a.meanmenu-reveal span {
+    background-color: #000000;
+    position: relative;
+    top: 8px;
+    margin-top: -5px;
+  }
+  .mobile-nav .logo {
+    top: 14px;
+    max-width: 105px;
+  }
+  .mobile-nav a{
+    font-size: 1rem;
+    color: #000000;
+  }
+  .mobile-nav.mean-container .mean-nav {
+    margin-top: 70px;
+  }
+ 
+  .nav-area .others-option {
+    display: none;
+  }
+  .fixed-top {
+    position: unset;
+  }
+  .mobile-nav nav .navbar-nav {
+    height: 325px;
+  }
+}
